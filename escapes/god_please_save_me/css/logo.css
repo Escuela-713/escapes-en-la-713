@@ -1,0 +1,91 @@
+body {
+    background-color: darkslategrey;
+}
+
+
+.navegacion {
+    background-color: rgb(19, 77, 26);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(87, 18, 27);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+}
+
+
+a {
+    color: rgb(250, 255, 247);
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.si {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.opcion {
+    text-align: center;
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    color: khaki;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-linkactivea {
+    text-align;
+}
+
+body {
+    background-color: rgb(63, 109, 109);
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.formulario {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.forms {
+    padding-top: 50px;
+}
+
+.cartel {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.Continuara{font-size: 150px;color: rgb(88, 48, 2); text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;padding-top: 150px;}
+#espaciados {padding-top: 50px;font-size: 25px;text-align: left; font-family: 'Times New Roman', Times, serif;}
+#ig {text-align: center;width: 150px; height: 150px;}
+#Redes{padding-top: 50px;font-size: 25px;font-family: 'Times New Roman', Times, serif;text-align: center;}

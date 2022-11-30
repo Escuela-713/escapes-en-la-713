@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LA_REDENCION_o_no/PARTE1/PARTE2/PARTE3/Final/mis_estilos.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    
+    <style>
+        body {
+            background-image: url(
+            "imagenes/cielo.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+            flex-wrap: wrap;
+
+            
+        }
+    </style>
+    
+    <title>Document</title>
+</head>
+<body class="m-5">
+<center>
+    <header>
+        <p>
+            <b>
+                ¿Quien Eres?
+            </b>
+        </p>
+
+    </header>
+
+    <section>
+       <div>
+        <form action="" method="get" class="needs-validation" novalidate>
+            <label for="usuario" class="form-label" > User</label>
+            <input type="email" name="usuario" id="usuario" class="form-control" required>
+<div class="valid-feedback">
+no papu no
+</div>
+
+<label for="password" class="form-laber"> Ingrese PASSWORD </label>
+            <input type="password" name="password" required id="password" class="form-control" > 
+            <div class="valid-feedback">
+
+            </div>
+
+
+        </form>
+    </div> 
+    <a href="Inicio.html"> iniciar</a>
+
+    <footer>
+    <p>Luca Joel Ferreira, 4to Primera ETP 713</p>
+    </footer>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.js">
+         // Ejemplo de JavaScript inicial para deshabilitar el envío de formularios si hay campos no válidos
+         (function () {
+        'use strict'
+
+        // Obtener todos los formularios a los que queremos aplicar estilos de validación de Bootstrap personalizados
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Bucle sobre ellos y evitar el envío
+        Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+            })
+        })()
+    </script>
+</center>
+</body>
+</html>

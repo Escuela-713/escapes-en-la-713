@@ -1,0 +1,20 @@
+.centrar
+{margin: 0 auto;}
+.contenedor {display:flex;justify-content: center;}
+
+
+.imagen {
+    width: 100px;
+    height: 100px;
+}
+
+
+.imagen2 {
+    width: 190px;
+    height: 200px;
+}
+
+
+.colorb {
+    border-bottom-color: blanchedalmond;
+}

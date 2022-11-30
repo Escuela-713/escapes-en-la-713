@@ -1,0 +1,16 @@
+.termino {
+    color: darkred;
+    font-size: 50px;
+    text-align: center;
+    border-style: groove;
+    border-radius: 50px;
+    background-color: black;
+}
+
+p {
+    font-size: 20px;
+    font-style: Arial Black;
+    text-align: center;
+    padding-top: 15px;
+}
+.reintentar {text-align: center;padding-top: 300px;}

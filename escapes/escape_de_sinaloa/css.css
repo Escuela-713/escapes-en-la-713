@@ -1,0 +1,30 @@
+.title{color:rgb(30, 150, 0); font: size 40px;}
+.continuara{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font: size 30px;
+  color: rgb(30, 150, 0); font-size: 200px;}
+.img {
+    width: 100% 
+}
+body{
+    background-color: black;
+    margin: 20px;
+}
+.parafo{color: rgb(30, 150, 0); font: size 40px;}
+.parafo2{
+  color: rgb(30, 150, 0); font-size: 25px;
+}
+.parafo3{
+
+color:rgb(30, 150, 0) ; font-size: 25px;
+
+}
+a{
+  color:rgb(30, 150, 0) ;
+  text-decoration: none;
+}
+
+.parrafo6{
+color:rgb(30, 150, 0); font-size: 28px;
+background-color: rgb(4, 27, 1);
+
+
+}

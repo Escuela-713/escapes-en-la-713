@@ -1,0 +1,93 @@
+@media (max-width:768px) {
+    .img {
+        height: 125px;
+        width: 115px;
+    }
+
+    .container {
+        text-align: justify;
+    }
+}
+.black{
+    color: black;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.right {
+    text-align: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    position: sticky;
+}
+
+.ul {
+    list-style: none;
+}
+
+.utility {
+    font-size: 2rem;
+}
+
+.bg {
+    background-color: antiquewhite;
+}
+
+.tx-1r {
+    font-size: 1.5rem;
+}
+
+.o-l {
+    margin-left: 1rem;
+}
+
+.up {
+    margin-top: 1rem;
+}
+
+.copy {
+    text-align: center;
+    color: white;
+    background-color: rgb(97, 97, 97);
+}
+
+.i100 {
+    height: 90%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: gray;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: solid black;
+}
+.autor{
+    font-size: 1.2rem;
+    font-style: bold;
+}
+.name{
+    font-size: 1.2rem;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+

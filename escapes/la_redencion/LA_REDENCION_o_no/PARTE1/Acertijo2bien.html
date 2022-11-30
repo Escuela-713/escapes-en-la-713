@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PARTE2/PARTE3/Final/mis_estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <header><p><b>OPCION CORRECTA</b></p></header>
+
+    <section>
+            
+            <br><br><br><br>
+            <p>
+                <b class="RESULTADOBIEN">
+                       TOKENS:0
+                </b>
+            </p>
+            
+            
+            <br><br><br>
+                       
+
+            <br>
+            <br>  <br>
+            <br>  <br>
+            <br>  
+             <p>
+                 <b> 
+                     Suena una voz, por otra vez ese bendito megafono...
+                     <br>
+                     <br><br><br><br>
+                    <i>
+                       
+                    MAL, MAL, MAAAAAAAAAAAAAAAAAAAAAAAAAL!! TU OBJETIVO ES CONSEGUIR <strong>TOOOOOOOOOOOKENS</strong> NO PERDERLOS!!!!!!!!!!!!!!!!!!!!!!!!!!!! ugh, humano estupido, por tu estupidez te dare un reto mas complicado de lo habitual jajaja!
+                        
+                    </i>
+<br><br><br><br><br>
+               
+
+             Aparece un cartel delante mio, diciendo: "Preguntas matematicas!"
+
+             ¿Cuanto es 2+2?
+
+                </b>
+                 <br>
+                 
+
+                 <br>
+                 
+
+             </p>
+             <p>
+eh?
+         </p>
+         <form id="myform" onsubmit="validarNro(event)">
+            <label for="nro">
+                Ingrese la respuesta
+            </label>
+            <input type="number" id="nro" required min="0">
+            <input type="submit" value="Enviar">
+        </form>
+
+    </center>
+</section>
+
+<br><br><br><br>
+
+<footer>
+    <p>Luca Joel Ferreira, 4to Primera ETP 713</p>
+</footer>
+
+<script>
+    function validarNro(event)
+    {
+
+     
+        let form=document.forms["myform"];
+        let nro=parseInt( document.forms["myform"]["nro"].value);
+        if(form.checkValidity())
+        {
+         
+            if(nro== 4)
+            {
+                event.preventDefault()
+                document.location="Acertijo2_FACIL.html"
+            }
+            else
+            {
+                event.preventDefault()
+                document.location="Acertijo2_+mal.html"
+            }
+        }
+    }
+</script>
+</body>
+</html>
