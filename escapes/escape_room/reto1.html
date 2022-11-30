@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>Reto N1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="res/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="res/css/font.css">
+  <link rel="stylesheet" href="res/css/style.css">
+  <script src="res/js/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>Escape room</h1>
+      <div class="right">
+        <a href="index.html">Inicio</a>
+        <a href="sobre_nosotros.html">Sobre Nosotros</a>
+        <a href="">Feria de ciencias</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <article>
+        <img src="./res/img/caja_fuerte.jpg" alt="">
+      </article>
+      <article>
+        <p>Yendo al baño lograste ver algo en el camino, y resulta ser que era una caja fuerte, donde supones que están
+          las llaves y te propones aprovechar esa ventaja para escapar, para ello debes descifrar la combinación.</p>
+          <p>
+            Con el pasar de las horas, logras escuchar el ruido de la caja fuerte.
+          </p>
+          <span class="soundlike">Sonaba algo así:</span>
+          <br>
+          <audio src="res/audio/codigo_morse.mp3" controls preload="auto"></audio>
+          <br>
+          <span class="audiobe" data-bs-toggle="modal" data-bs-target="#audio">Haz click aqui si no puedes escuchar el audio</span>
+          <p>
+            Después de haber escuchado el audio, tienes que descifrar la combinación correcta
+          </p>
+      </article>
+      <article>
+        <form onsubmit="form(event)" id="my-form">
+          <select id="select">
+            <option value="286" class="pista">286</option>
+            <option value="8036" class="pista">8036</option>
+            <option value="2735" class="pista">2735</option>
+            <option value="2168" class="pista">2168</option>
+            <option value="1962" class="pista">1962</option>
+          </select>
+          <input type="submit" value="enviar">
+        </form>
+      </article>
+    </div>
+  </main>
+  <footer id="footer">
+    <img src="res/img/logo.png" alt="Logo Escuela 713" class="logo-escuela" align="left">
+    <ul class="center">
+      <li>Walter Carrasco</li>
+      <li>Colegio 713 'Juan Abdala Chayep'</li>
+      <li>Esquel-Chubut</li>
+    </p>
+  </footer>
+  <section>
+    </div>
+<!-- modal si audio falla-->
+<div class="modal fade" id="audio">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Audio pero en codigo Morse</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        El audio contenia Codigo Morse, es el siguiente
+        <p class="morse">
+          ---.. ----- ...-- -....
+        </p>
+      </div> 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FIN DE LOS MODALES -->
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

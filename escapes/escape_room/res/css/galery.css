@@ -1,0 +1,35 @@
+:root{
+    --h1-font:Oswald;
+    --bg-font:Arial;
+    --a-hover:green;
+    --img-hover:chocolate;
+    --i-hover:red;
+    --img-width:auto;
+    --img-height:300px;
+}
+h1{
+    font-family: var(--h1-font);
+}
+body{
+    font-family: var(--bg-font);
+}
+a:hover{
+    color: var(--i-hover);
+}
+.modal-body img{
+    width:var(--img-width);
+    height: var(--img-height);
+}
+img:hover{
+    background-color: var(--img-hover);
+}
+.red:hover{
+    color: var(--i-hover);
+}
+.belo img{
+    height: 608px;
+    width: auto;
+}
+.foto_represa{
+    height: auto;
+}
