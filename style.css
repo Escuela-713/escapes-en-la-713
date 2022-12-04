@@ -1,7 +1,7 @@
 @media (max-width:768px) {
     .img {
-        height: 125px;
-        width: 115px;
+        height: 85px;
+        width: 110px;
     }
 
     .container {
@@ -90,4 +90,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.5rem;
     font-weight: bold;
 }
-
+.canyou{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
